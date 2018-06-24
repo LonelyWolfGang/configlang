@@ -1,74 +1,197 @@
-{
 	"français":
-	{
-		"bienvenue": ":\nBienvenue sur !\nCe serveur a pour but de créer une émulation entre les membres afin qu'ils puissent approfondir leurs connaissances dans les langues et s'entraider.\n```Pour voir les langues auxquelles tu peux accéder (pour apprentissage, discussion, autre...), tape !list\npuis pour y accéder, tape !j xx\nCette commande pourra être faites plusieurs fois```",
-		"listlang": "```Pour le moment, voici la liste des langages disponibles :\n┌────┬──────────┐\n│ xx │ Langue   │\n╞════╪══════════╡\n│ ar │ Arabe    │\n├────┼──────────┤\n│ br │ Breton   │\n├────┼──────────┤\n│ de │ Allemand │\n├────┼──────────┤\n│ en │ Anglais  │\n├────┼──────────┤\n│ es │ Espagnol │\n├────┼──────────┤\n│ fr │ Français │\n├────┼──────────┤\n│ he │ Hébreu   │\n├────┼──────────┤\n│ ht │ Créole   │\n│    │ haïtien  │\n├────┼──────────┤\n│ it │ Italien  │\n├────┼──────────┤\n│ jp │ Japonais │\n├────┼──────────┤\n│ ko │ Coréen   │\n├────┼──────────┤\n│ pl │ Polonais │\n├────┼──────────┤\n│ pt │ Portugais│\n├────┼──────────┤\n│ ru │ Russe    │\n├────┼──────────┤\n│ sl │ Slovène  │\n├────┼──────────┤\n│ zh │ Chinois  │\n├────┴──────────┤\n│ Autres        │\n│ langues ?     │\n└───────────────┘\nTape !j xx pour accéder à la langue désirée en remplaçant les xx par les 2 lettres de la langue```",
-		"cfglg": "Ta langue a été prise en compte !",
-		"stplg": "Dans quelle langue veux-tu que je te parle maintenant ? (français, english, español, 日本語)",
-		"ok": "Ta demande a été prise en compte",
-		"dame": "Tu n'as pas la permission d'utiliser cette commande",
-		"errcmd": "Vérifie la syntaxe de la commande",
-		"errdata": "Echec de l'exécution",
-		"notrole": " n'existe pas",
-		"accessrole": "Tu as maintenant accès à ",
-		"norole": "Aucun rôle trouvé",
-		"unaccessrole": "Tu as retiré l'accès de ",
-		"list cmd": "Liste des commandes",
-		"roledjadd": "Ce rôle est déjà ajouté",
-		"notomp": "Impossible via message privé"
-	},
+		"01": "Bienvenue sur ! Ce serveur a pour but de créer une émulation entre les membres afin qu'ils puissent approfondir leurs connaissances dans les langues et s'entraider. Pour voir les langues auxquelles tu peux accéder (pour apprentissage, discussion, autre...), tape !list puis pour y accéder, tape !j xx Cette commande pourra être faites plusieurs fois"
+		"02": "Pour le moment, voici la liste des langages disponibles : Langue | Arabe │ Breton │ Allemand │ Anglais │ Espagnol │ Français │ Hébreu │ Créole haïtien │ Italien │ Japonais │ Coréen │ Polonais │ Portugais│ Russe │ Slovène │ Chinois │ Autres langues ? Tape !j xx pour accéder à la langue désirée en remplaçant les xx par les 2 lettres de la langue"
+		"03": "Ta langue a été prise en compte !"
+		"04": "Dans quelle langue veux-tu que je te parle maintenant ? (français, english, español, 日本語)"
+		"05": "Ta demande a été prise en compte"
+		"06": "Tu n'as pas la permission d'utiliser cette commande"
+		"07": "Vérifie la syntaxe de la commande"
+		"08": "Echec de l'exécution"
+		"09": " n'existe pas"
+		"10": "Tu as maintenant accès à "
+		"11": "Aucun rôle trouvé"
+		"12": "Tu as retiré l'accès de "
+		"13": "Liste des commandes"
+		"14": "Ce rôle est déjà ajouté"
+		"15": "Impossible via message privé"
+
+
 	"english":
-	{
-		"bienvenue": "Welcome to \n\nThis server is meant to create an emulation between the members so they can develop their knowledge in different languages and also so they can help each other.\n\n```In order to see which languages you can have access to (to learn the language, to discuss...), write !list,\n then, to have access, write !j xx.\nThis command will be doable multiple times.```",
-		"listlang": "```At the moment, here is the list of the available languages :\n┌────┬────────────┐\n│ xx │ language   │\n╞════╪════════════╡\n│ ar │ arabic     │\n├────┼────────────┤\n│ br │ breton     │\n├────┼────────────┤\n│ de │ german     │\n├────┼────────────┤\n│ en │ english    │\n├────┼────────────┤\n│ es │ spanish    │\n├────┼────────────┤\n│ fr │ french     │\n├────┼────────────┤\n│ he │ hebrew     │\n├────┼────────────┤\n│ ht │ Haitian    │\n│    │ creole     │\n├────┼────────────┤\n│ it │ italian    │\n├────┼────────────┤\n│ jp │ japanese   │\n├────┼────────────┤\n│ ko │ korean     │\n├────┼────────────┤\n│ pl │ polish     │\n├────┼────────────┤\n│ pt │ portuguese │\n├────┼────────────┤\n│ ru │ russian    │\n├────┼────────────┤\n│ sl │ slovene    │\n├────┼────────────┤\n│ zh │ chinese    │\n├────┴────────────┤\n│ others          │\n│ languages ?     │\n└─────────────────┘\nWrite !j xx to access the wanted language by replacing the xx by the two letters which represent the language ```",
-		"cfglg": "Your language choice has been registered !",
-		"stplg": "In which language do you want me to talk to you now ? (français, english, español, 日本語)",
-		"ok": "your request has been registered",
-		"dame": "you are not allowed to use this command here",
-		"errcmd": "Vérifie la syntaxe de la commande",
-		"errdata": "failure of the execution",
-		"notrole": " n'existe pas",
-		"accessrole": "Tu as maintenant accès à ",
-		"norole": "Aucun rôle trouvé",
-		"unaccessrole": "Tu as retiré l'accès de ",
-		"list cmd": "Liste des commandes",
-		"roledjadd": "Ce rôle est déjà ajouté",
-		"notomp": "Impossible via message privé"
-	},
+		"01": "Welcome to ! This server is meant to create an emulation between the members so they can develop their knowledge in different languages and also so they can help each other. In order to see which languages you can have access to (to learn the language, to discuss...), write !list, then, to have access, write !j xx. This command will be doable multiple times."
+		"02": "At the moment, here is the list of the available languages : language │ arabic │ breton │ german │ english │ spanish │ french │ hebrew │ Haitian creole │ italian │ japanese │ korean │ polish │ portuguese │ russian  │ slovene │ chinese │ others languages ? Write !j xx to access the wanted language by replacing the xx by the two letters which represent the language"
+		"03": "Your language choice has been registered !"
+		"04": "In which language do you want me to talk to you now ? (français, english, español, 日本語)"
+		"05": "your request has been registered"
+		"06": "you are not allowed to use this command here"
+		"07": "Vérifie la syntaxe de la commande"
+		"08": "failure of the execution"
+		"09": " n'existe pas"
+		"10": "Tu as maintenant accès à "
+		"11": "Aucun rôle trouvé"
+		"12": "Tu as retiré l'accès de "
+		"13": "Liste des commandes"
+		"14": "Ce rôle est déjà ajouté"
+		"15": "Impossible via message privé"
+
+
 	"español":
-	{
-		"bienvenue":":\nBienvenido a 'PL' !\nEste servidor tiene por objectivo de crear una emulación entre los miembros para que puedan profundizar su conocimiento en los idiomas y ayudarse mutuamente.\nPara ver los idiomas a los cuales puedes acceder (para aprender, discutir, u otro...) toca !list\n luego para acceder, toca !j xx\nEste orden se puede hacer varias veces.",
-		"listlang": "```Por el momento, aquí está la lista de idiomas disponibles :\n┌────┬────────────┐\n│ xx │  Idioma    │\n╞════╪════════════╡\n│ ar │  Árabe     │\n├────┼────────────┤\n│ br │ Bretón     |\n├────┼────────────┤\n│ de │ Alemán     │\n├────┼────────────┤\n│ en │ Inglés     │\n├────┼────────────┤\n│ es │ español    │\n├────┼────────────┤\n│ fr │ Francés    │\n├────┼────────────┤\n│ he │ Hebro      │\n├────┼────────────┤\n│ ht │ Criollo    │\n│    │ haitiano   │\n├────┼────────────┤\n│ it │ Italiano   │\n├────┼────────────┤\n│ jp │ Japonés    │\n├────┼────────────┤\n│ ko │ Coreano    │\n├────┼────────────┤\n│ pl │ Polaco     │\n├────┼────────────┤\n│ pt │ Portugués  │\n├────┼────────────┤\n│ ru │ Ruso       │\n├────┼────────────┤\n│ sl │ Esloveno   │\n├────┼────────────┤\n│ zh │ Chino      │\n├────┴────────────┤\n│ Más             │\n│ idomas ?        │\n└─────────────────┘\nToca !j xx para acceder a los idiomas queridos reemplazando los xx por las 2 letras del idioma.```",
-		"cfglg": "Su idioma a sido tomado en consideración !",
-		"stplg": "En cuál idioma quieres que te hable ahora ? (français, english, español, 日本語)",
-		"ok": "Tu demanda ha sido tomado en consideración",
-		"dame": "Usted no está autorizado de utilizar esta orden aquí.",
-		"errcmd": "Vérifie la syntaxe de la commande",
-		"errdata": "Echec de l'exécution",
-		"notrole": " n'existe pas",
-		"accessrole": "Tu as maintenant accès à ",
-		"norole": "Aucun rôle trouvé",
-		"unaccessrole": "Tu as retiré l'accès de ",
-		"list cmd": "Liste des commandes",
-		"roledjadd": "Ce rôle est déjà ajouté",
-		"notomp": "Impossible via message privé"
-	},
+		"01": "Bienvenido a ! Este servidor tiene por objectivo de crear una emulación entre los miembros para que puedan profundizar su conocimiento en los idiomas y ayudarse mutuamente. Para ver los idiomas a los cuales puedes acceder (para aprender, discutir, u otro...) toca !list luego para acceder, toca !j xx Este orden se puede hacer varias veces."
+		"02": "Por el momento, aquí está la lista de idiomas disponibles : Idioma │ Árabe │ Bretón | Alemán │ Inglés │ español │ Francés │ Hebro │ Criollo haitiano │ Italiano │ Japonés │ Coreano │ Polaco │ Portugués │ Ruso │ Esloveno │ Chino │ Más idomas ? Toca !j xx para acceder a los idiomas queridos reemplazando los xx por las 2 letras del idioma."
+		"03": "Su idioma a sido tomado en consideración !"
+		"04": "En cuál idioma quieres que te hable ahora ? (français, english, español, 日本語)"
+		"05": "Tu demanda ha sido tomado en consideración"
+		"06": "Usted no está autorizado de utilizar esta orden aquí."
+		"07": "Vérifie la syntaxe de la commande"
+		"08": "Echec de l'exécution"
+		"09": " n'existe pas"
+		"10": "Tu as maintenant accès à "
+		"11": "Aucun rôle trouvé"
+		"12": "Tu as retiré l'accès de "
+		"13": "Liste des commandes"
+		"14": "Ce rôle est déjà ajouté"
+		"15": "Impossible via message privé"
+
+
 	"日本語":
-	{
-		"bienvenue": " !",
-		"listlang": "```:\n┌────┬────────────┐\n│ xx │    │\n╞════╪════════════╡\n│ ar │      │\n├────┼────────────┤\n│ br │   │\n├────┼────────────┤\n│ de │ ドイツ語     │\n├────┼────────────┤\n│ en │ 英語    │\n├────┼────────────┤\n│ es │ スパイン後    │\n├────┼────────────┤\n│ fr │ フランス語     │\n├────┼────────────┤\n│ he │      │\n├────┼────────────┤\n│ ht │     │\n│    │      │\n├────┼────────────┤\n│ it │ イタリア後    │\n├────┼────────────┤\n│ jp │ 日本語   │\n├────┼────────────┤\n│ ko │ 韓国語     │\n├────┼────────────┤\n│ pl │      │\n├────┼────────────┤\n│ pt │ ポルトガル語 │\n├────┼────────────┤\n│ ru │ ロシア語    │\n├────┼────────────┤\n│ sl │   │\n├────┼────────────┤\n│ zh │ 中国語    │\n├────┴────────────┤\n│ others          │\n│ languages ?     │\n└─────────────────┘\n",
-		"cfglg": " !",
-		"stplg": " ? (français, english, español, 日本語)",
-		"ok": " !",
-		"dame": " x",
-		"errcmd": "Vérifie la syntaxe de la commande",
-		"errdata": "Echec de l'exécution",
-		"notrole": " n'existe pas",
-		"accessrole": "Tu as maintenant accès à ",
-		"norole": "Aucun rôle trouvé",
-		"unaccessrole": "Tu as retiré l'accès de ",
-		"list cmd": "Liste des commandes",
-		"roledjadd": "Ce rôle est déjà ajouté",
-		"notomp": "Impossible via message privé"
-	}
-}
+		"01": ""
+		"02": ""
+		"03": ""
+		"04": ""
+		"05": ""
+		"06": ""
+		"07": ""
+		"08": ""
+		"09": ""
+		"10": ""
+		"11": ""
+		"12": ""
+		"13": ""
+		"14": ""
+		"15": ""
+
+
+	"deutch":
+		"01": ""
+		"02": ""
+		"03": ""
+		"04": ""
+		"05": ""
+		"06": ""
+		"07": ""
+		"08": ""
+		"09": ""
+		"10": ""
+		"11": ""
+		"12": ""
+		"13": ""
+		"14": ""
+		"15": ""
+
+
+	"italiano":
+		"01": ""
+		"02": ""
+		"03": ""
+		"04": ""
+		"05": ""
+		"06": ""
+		"07": ""
+		"08": ""
+		"09": ""
+		"10": ""
+		"11": ""
+		"12": ""
+		"13": ""
+		"14": ""
+		"15": ""
+
+
+	"":
+		"01": ""
+		"02": ""
+		"03": ""
+		"04": ""
+		"05": ""
+		"06": ""
+		"07": ""
+		"08": ""
+		"09": ""
+		"10": ""
+		"11": ""
+		"12": ""
+		"13": ""
+		"14": ""
+		"15": ""
+
+
+	"":
+		"01": ""
+		"02": ""
+		"03": ""
+		"04": ""
+		"05": ""
+		"06": ""
+		"07": ""
+		"08": ""
+		"09": ""
+		"10": ""
+		"11": ""
+		"12": ""
+		"13": ""
+		"14": ""
+		"15": ""
+
+
+	"":
+		"01": ""
+		"02": ""
+		"03": ""
+		"04": ""
+		"05": ""
+		"06": ""
+		"07": ""
+		"08": ""
+		"09": ""
+		"10": ""
+		"11": ""
+		"12": ""
+		"13": ""
+		"14": ""
+		"15": ""
+
+
+	"":
+		"01": ""
+		"02": ""
+		"03": ""
+		"04": ""
+		"05": ""
+		"06": ""
+		"07": ""
+		"08": ""
+		"09": ""
+		"10": ""
+		"11": ""
+		"12": ""
+		"13": ""
+		"14": ""
+		"15": ""
+
+
+	"":
+		"01": ""
+		"02": ""
+		"03": ""
+		"04": ""
+		"05": ""
+		"06": ""
+		"07": ""
+		"08": ""
+		"09": ""
+		"10": ""
+		"11": ""
+		"12": ""
+		"13": ""
+		"14": ""
+		"15": ""
+
