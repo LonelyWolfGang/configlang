@@ -1,1 +1,3 @@
 # configlang
+
+Traduction du bot
